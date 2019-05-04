@@ -166,7 +166,7 @@ foreach ($email in $folder.Items) {
     $folderRegex = "jd-" + $mmdb_id + "-+"
 
     # put all of the complete paths of the folder names into $files
-    $files = Get-ChildItem 'S:\Enterprise Support\Team EAM\ESS\EAMT\requests\merges\fy2019 paperless' | select -expand fullname
+    $files = Get-ChildItem '' | select -expand fullname
 
     # checks each path to see if it has the folderRegex, if true, the path it returns is stored as $unique_path	
     $unique_path = $files -match $folderRegex | Out-String
