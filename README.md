@@ -6,4 +6,5 @@ I modified the script such that it would dynamically parse my inbox for certain 
 emails into folders that exist for their respective ID numbers.
 
 The script is written to be used in Microsoft PowerShell. 
-*for the $file variable, I've taken out the path to my folder for security purposes.* 
+
+*For the $file variable, I've taken out the path to my folder for security purposes.
