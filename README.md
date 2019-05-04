@@ -7,4 +7,4 @@ emails into folders that exist for their respective ID numbers.
 
 The script is written to be used in Microsoft PowerShell. 
 
-*For the $file variable, I've taken out the path to my folder for security purposes.
+*For the $file variable, I've taken out the path to my folder for security purposes.*
